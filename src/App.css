@@ -1,38 +1,158 @@
-.App {
+*{
+  background-color: #fdf1e5;
+}
+
+
+.rules{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rules a{
+  text-decoration: none;
+  color:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rules a:hover {
+  
+  color:#e94c42;
 }
 
-.App-header {
-  background-color: #282c34;
+.game-app{
+  color: #36454F ;
+  background-color: #fdf1e5;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: block;
+
 }
 
-.App-link {
-  color: #61dafb;
+.stack-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10%;
+  padding-top: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stack-container{
+  justify-content: center;
+}
+
+.num-disks{
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
+.title{
+  text-align: center;
+  background-color:  #fdf1e5 ;
+  align-items: start;
+  margin-top: 5%;
+}
+
+.buttons{
+  align-items: center;
+  text-align: center;
+}
+
+.buttons button{
+  border: solid white ;
+  border-radius: 25%;
+  border-width: 1px;
+  background-color: #b1d2e0  ;
+}
+
+.buttons button:hover {
+  background-color: #fbcfc9;
+}
+
+.left{
+  text-align: center;
+  align-self: end;
+  width: 15%;
+  min-height: 80%;
+}
+
+
+.middle{
+  text-align: center;
+  align-self: end;
+  width: 15%;
+}
+
+.right{
+  text-align: center;
+  align-self: end;
+  width: 15%;
+}
+
+.bottom{
+  align-items: end;
+  padding-top: 15%;
+}
+
+.moves{
+  text-align: center;
+  margin-top: 5%;
+  min-height: 10vh;
+}
+
+.letters{
+}
+
+.disk{
+  border: solid white ;
+  background-color: #C2D8B8;
+  color:black;
+  text-decoration: none;
+  margin-bottom: 5%;
+  
+}
+
+.disk span{
+  background-color: #C2D8B8;
+}
+
+.arrow{
+  background-color:#b1d2e0 ;
+  color:  white;
+  border: solid white;
+  font-weight: bolder;
+  font-size: large;
+  align-items: center;
+  border-radius: 25%;
+}
+
+
+.arrow:hover {
+  background-color:#fbcfc9; 
+}
+
+.push{
+  border: solid white;
+  background-color: #fbcfc9;
+  border-radius: 25%;
+}
+
+.push:hover{
+  background-color:#e94c42;
+}
+
+.pushcont{
+  margin:10% 0;
+}
+
+.transfer{
+  color: #e94c42;
+}
+
+.total{
+  min-height: 30vh;
+}
+
+.tmoves{
+  color: #e94c42;
 }
