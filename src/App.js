@@ -44,7 +44,7 @@ function App() {
     }
   }
 
-  //Write a function that setups the game conditions and simultaneously updates the state of the conditions
+  //Write a function that sets up the game conditions and simultaneously updates the state of the conditions
   const handleNumdisks = (value) => {
     number_of_disk = value;
     var total_disk = range(number_of_disk, 0 , -1);
@@ -98,7 +98,7 @@ function App() {
     };
   }
 
-  /*Write functions that handle the different necessary conditions for the push/pop methods to be imployed for each stack and also updates the state
+  /*Write functions that handle the different necessary conditions for the push/pop methods to be employed for each stack and also updates the state
   if those conditions are satisfied*/
   const handleLpush = () => {
 
